@@ -1,0 +1,7 @@
+### GET request with a header
+GET http://localhost:8000
+Accept: application/json
+
+### GET posts
+GET http://localhost:8000/posts
+Accept: application/json

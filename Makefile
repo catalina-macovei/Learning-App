@@ -1,5 +1,4 @@
-run/venv:
-	source venv/bin/activate
+runvenv:
+	 ./venv/bin/activate
 
-
-.PHONY: run/venv
+.PHONY: runvenv
