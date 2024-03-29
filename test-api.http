@@ -5,3 +5,28 @@ Accept: application/json
 ### GET posts
 GET http://localhost:8000/posts
 Accept: application/json
+
+### GET posts
+GET http://localhost:8000/posts/12
+Accept: application/json
+
+### GET latest post
+GET http://localhost:8000/latestposts
+Accept: application/json
+
+
+### DELETE posts
+DELETE http://localhost:8000/posts/1
+Accept: application/json
+
+
+
+### Create post
+POST http://localhost:8000/posts
+Content-Type: application/json
+
+{
+  "title": "bla bla",
+  "content": "content",
+  "rating": 10
+}
